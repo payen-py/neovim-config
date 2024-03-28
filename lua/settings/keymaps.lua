@@ -26,6 +26,10 @@ keymap.set("n", "]d", vim.diagnostic.goto_next)
 keymap.set("n", "<space>q", vim.diagnostic.setloclist)
 -- 设置Formatter
 keymap.set("n", "<space>ff", ":FormatWrite<CR>")
+-- 设置markdown preview快捷键
+keymap.set("n", "<leader>mp", ":MarkdownPreview")
+keymap.set("n", "<leader>mt", ":MarkdownPreviewToggle")
+keymap.set("n", "<leader>ms", ":MarkdownPreviewStop")
 
 -- Use LspAttach autocommand to only map the following keys
 -- after the language server attaches to the current buffer
