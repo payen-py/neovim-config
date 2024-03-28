@@ -8,7 +8,7 @@
 
 ### Uasage
 
-在本地`Home`目录下的`.config`文件夹下创建`nvim`文件夹，并将仓库内容下载进去
+在本地`$Home`目录下的`.config`文件夹下创建`nvim`文件夹，并将仓库内容下载进去
 
 ### Installd Plugins
 
