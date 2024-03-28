@@ -75,3 +75,7 @@
 - iamcco/markdown-preview.nvim
 
   > 支持markdown文件的快速预览，可以与文件修改同步
+
+- kdheepak/lazygit.nvim
+
+  > 基于[lazygit](https://github.com/jesseduffield/lazygit),可以在vim中以悬浮终端的形式集成git的各种功能
