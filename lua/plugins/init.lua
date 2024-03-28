@@ -97,6 +97,13 @@ require("lazy").setup({
 		end,
 		keys = {
 			{ "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" },
+			-- set keymap to use telescope find stash repos
+			-- s = Stash
+			{
+				"<leader>ts",
+				"<cmd>lua require('telescope').extensions.lazygit.lazygit()<cr>",
+				desc = "Telescope find whichi repo could be stashed",
+			},
 		},
 	},
 })
