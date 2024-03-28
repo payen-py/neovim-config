@@ -78,4 +78,4 @@
 
 - kdheepak/lazygit.nvim
 
-  > 基于[lazygit](https://github.com/jesseduffield/lazygit),可以在vim中以悬浮终端的形式集成git的各种功能
+  > 基于[lazygit（需要先安装相应二进制文件）](https://github.com/jesseduffield/lazygit)，可以在vim中以悬浮终端的形式集成git的各种功能
