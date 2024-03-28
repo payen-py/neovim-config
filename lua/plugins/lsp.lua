@@ -9,7 +9,7 @@ require("mason").setup({
 })
 
 require("mason-lspconfig").setup({
-	ensure_installed = { "lua_ls", "cmake", "clangd", "pylsp", "jsonls", "yamlls", "grammarly" },
+	ensure_installed = { "lua_ls", "cmake", "clangd", "pylsp", "jsonls", "yamlls", "marksman" },
 })
 
 -- Set up lspconfig.
