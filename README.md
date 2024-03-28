@@ -6,6 +6,10 @@
 - 脚本安装插件[`lazy.vim`](https://github.com/folke/lazy.nvim)
 - 需要的各种依赖可以去具体的github仓库下查看
 
+### Uasage
+
+在本地`Home`目录下的`.config`文件夹下创建`nvim`文件夹，并将仓库内容下载进去
+
 ### Installd Plugins
 
 - 主题：catppuccin/nvim
