@@ -43,11 +43,18 @@ vim.api.nvim_exec(
 	false
 )
 -- 设置neovim打开文件后回到上次光标位置
-vim.api.nvim_create_autocmd('BufReadPost', {callback = function()
-    local line = vim.fn.line('\'"')
-    if line > 1 and line <= vim.fn.line('$') then
-        vim.cmd.normal('g\'"')
-    end
-end})
-
-
+vim.api.nvim_create_autocmd("BufReadPost", {
+	callback = function()
+		local line = vim.fn.line("'\"")
+		if line > 1 and line <= vim.fn.line("$") then
+			vim.cmd.normal("g'\"")
+		end
+	end,
+})
+-- 设置每次打开git项目文件时用lazygit进行追踪
+-- 方便配合telescope查找git历史
+vim.api.nvim_create_autocmd("BufEnter", {
+	callback = function()
+		require("lazygit.utils").project_root_dir()
+	end,
+})
