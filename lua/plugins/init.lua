@@ -106,6 +106,10 @@ require("lazy").setup({
 			},
 		},
 	},
+	-- use nvim-dap
+	{ "mfussenegger/nvim-dap" },
+	{ "rcarriga/nvim-dap-ui", dependencies = { "mfussenegger/nvim-dap", "nvim-neotest/nvim-nio" } },
+	{ "theHamsta/nvim-dap-virtual-text", dependencies  = { "mfussenegger/nvim-dap", "nvim-treesitter/nvim-treesitter" } },
 })
 
 require("plugins.lualine")
@@ -119,4 +123,7 @@ require("plugins.bufferline")
 require("plugins.gitsigns")
 require("plugins.telescope")
 require("plugins.formatter")
+require("plugins.nvimdap")
+require("plugins.nvimdapui")
+require("plugins.nvimdapvirtualtext")
 require("plugins.catppuccin")

@@ -29,5 +29,7 @@ require("catppuccin").setup({
 			-- style = "nvchad"
 		},
 		markdown = true,
+    dap = true,
+    dap_ui = true
 	},
 })
