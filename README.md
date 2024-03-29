@@ -22,7 +22,7 @@
 
 - nvim-tree/nvim-tree.lua
 
-  > 文件树，需要使用nerd字体，我是用的是`DroidSansM`
+  > 文件树，需要使用[nerd字体](https://www.nerdfonts.com/)，我是用的是`DroidSansM`
 
 - nvim-treesitter/nvim-treesitter
 
@@ -79,3 +79,14 @@
 - kdheepak/lazygit.nvim
 
   > 基于[lazygit（需要先安装相应二进制文件）](https://github.com/jesseduffield/lazygit)，可以在vim中以悬浮终端的形式集成git的各种功能
+
+- mfussenegger/nvim-dap
+
+  > nvim的debug插件，我使用的是mac平台下的lldb-vscode工具进行调试
+
+- rcarriga/nvim-dap-ui
+
+  > nvim-dap的ui界面
+
+- theHamsta/nvim-dap-virtual-text
+  > 基于nvim-dap的调试信息提示
